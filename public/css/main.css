@@ -1,0 +1,982 @@
+body, html {
+  margin: 0;
+  padding: 0;
+
+  
+}
+body{
+  
+    font-family: "Roboto Slab", serif;
+    margin: 0;
+}
+.root{
+  position: relative;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-collapse{
+    display: flex;
+    justify-content: center;
+}
+.bg{
+  position: absolute;
+    background-color: transparent !important;
+    z-index: 100000;
+
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/planet-3149121_1280.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+ 
+    
+}
+nav{
+  position: absolute;
+}
+.nav-link{
+    color: white;
+    font-weight: bold;
+    transition: 0.5s;}
+
+.nav-link:hover{
+    color: brown;
+   
+}
+
+.navbar-nav{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navbar-brand{
+    width: 8%;
+    margin-left: 3%;
+}
+.telescope-frame {
+    position: relative;
+    width: 300px; /* Adjust the width as needed */
+    height: 300px; /* Adjust the height as needed */
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid #fff; /* Add a border if desired */
+  }
+  
+  .telescope-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%; /* Adjust the image size if needed */
+    height: 100%;
+    object-fit: cover; /* Ensure the image fills the container */
+  }
+  .content{
+    position: absolute;
+    top: 35vh;
+    width: 100%;
+  color: #fff;
+    background-color: rgb(16, 16, 16);
+    z-index: 1;
+    margin-top: 20%;
+  }
+  /* Ensure video covers entire viewport */
+#backgroundVideo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  object-fit: cover; /* Maintain aspect ratio */
+}
+
+
+  .main1{
+    width: 100%;
+    height: 80vh;
+    background-image: url(../images/astronomy-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+  }
+  .main2{
+    height: 150vh;
+  }
+
+.main1 p{
+  font-size: 22px;
+}
+
+
+  .about{
+    width: 60%;
+    height: auto;
+  }
+  h1{
+    font-size: 2.75rem;
+  }
+  .div{
+    width: 35%;
+    color: white;
+    height: 0.5vh;
+    background-color: rgb(155, 53, 12);
+    position: relative;
+  }
+  .left{
+    color: rgb(155, 53, 12);
+    font-size: 30px;
+    position: absolute;
+    left: -11%;
+    top: -19px;
+  }
+  .right{
+    color: rgb(155, 53, 12);
+    font-size: 30px;
+    position: absolute;
+    right: -11%;
+    top: -19px;
+  }
+.img1{
+  border-radius: 50%;
+}
+.content1{
+  width: 100%;
+  position: absolute;
+  top: 170vh;
+  background-image: url(/astronomy-background.jpg);
+  background-size: cover;
+
+}
+.content2{
+  position: absolute;
+
+  top: 270vh;
+}
+.main1 h1{
+  font-size: 80px;
+  color: rgb(155, 53, 12);
+}
+.main1 h1 span{
+  color:rgb(155, 53, 12) ;
+}
+.main1 h2{
+  font-size: 50px;
+}
+.decoration{
+  position: relative;
+  display: flex;
+  height: 60vh;
+  align-items: center;
+  border: 2px solid #fff ;
+  background-color: transparent;
+  border-radius: 45%;
+}
+.decoration2{
+  display: flex;
+  height: 70vh;
+ 
+  align-items: center;
+  border: 2px solid #237f9b ;
+  background-color: transparent;
+  border-radius: 50%;
+  z-index: 1000;
+}
+.i1{
+  position: absolute;
+  top: 96%;
+    left: 31%;
+  color: #237f9b;
+  font-size: 20px;
+}
+.i2{
+  position: absolute;
+  top: 0%;
+    left: 70%;
+  color: #237f9b;
+  font-size: 20px;
+}
+.i3{
+  position: absolute;
+  top: 9%;
+    left: 6%;
+  color: #fff;
+  font-size: 20px;
+}
+.i4{
+  position: absolute;
+  top: 79%;
+    left: 94%;
+  color: #fff;
+  font-size: 20px;
+}
+.pe{
+  font-size: 19px;
+}
+/* footer{
+  position: absolute;
+  top: 150vh;
+  width: 100%;
+  height: 10vh;
+  padding: 5%;
+  text-align: center;
+  color: #fff;
+  background-color: black;
+} */
+.bg1{
+  width: 80%;
+  background-image: url(../images/astronomy-background.jpg);
+  background-size: cover;
+  background-position: center;
+  /* background-image: url(What-is-a-hydrothermal-vent-GeologyPage.jpg);
+  background-size: contain;
+  background-position: center; */
+}
+.bg2{
+  width: 80%;
+  background-image: url(../images/astronomy-background.jpg);
+  background-size: cover;
+  background-position: center;
+/*  
+  background-image: url(thumb_400.jpg);
+  background-size: contain;
+  background-position: center; */
+ 
+
+}
+.bg3{
+  width: 80%;
+  background-image: url(../images/astronomy-background.jpg);
+  background-size: cover;
+  background-position: center;
+  /* background-image: url(Vol.jpeg);
+  background-size: contain;
+  background-position: center; */
+}
+.dif{
+  border-radius: 50%;
+  padding: 3%;
+  width: 80%;
+  height: 22vh;
+  display: flex;
+  align-items: center;
+ 
+  margin-bottom: 5%;
+  text-align: center;
+  font-size: 18px;
+}
+.dif p{
+  margin: auto;
+  width: 82%;
+}
+/* .bgg{
+  width: 30%;
+  margin: auto;
+  background-image: url(What-is-a-hydrothermal-vent-GeologyPage.jpg);
+  background-size: contain;
+  background-position: center;
+} */
+ .ocean{
+  position: absolute;
+  top: 58vh;
+  width: 100%;
+  height: 140vh;
+  background-image: url(../images/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvcm01MTMtZS0wMDdiLWwwdXB4aWhsLmpwZw.webp);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+}
+.temp{
+  position: absolute;
+  top: 10vh;
+  left: 5%;
+  width: 43%;
+  height: 75vh;
+  background-color: rgba(0, 0, 0, 0.623);
+  border-radius: 0 9rem;
+}
+.pressure{
+  height: 88vh;
+  top: 45vh;
+  left: 50%;
+}
+.temp p{
+  font-size: 20px;
+}
+.image{
+  
+  text-align: center;
+}
+.composition{
+  top:19vh ;
+  left: 6%;
+}
+.main3{
+  height: 170vh;
+}
+.why{
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.center{
+  width: 76%;
+  height: 43vh;
+  background-color: black;
+  text-align:center;
+  border-radius: 50%;
+}
+.center1{
+  width: 78%;
+  height: 59vh;
+  border-radius: 50%;
+  border: 1px solid white;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+}
+.center2{
+  width: 82%;
+  height: 74vh;
+  border-radius: 50%;
+  border: 1px solid white;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+}
+.center3{
+  width: 85%;
+  height: 85vh;
+  border-radius: 50%;
+  border: 1px solid white;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+
+}
+.center4{
+  width: 84%;
+  height: 96vh;
+  border-radius: 50%;
+  border: 1px solid white;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+}
+.center5{
+  width: 63%;
+  height: 110vh;
+  border-radius: 50%;
+  border: 1px solid white;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+}
+.z{
+  color: #237f9b;
+}
+.a{
+  color: rgb(31, 136, 101);
+}
+.m{
+  color: #054653;
+
+}
+.r{
+  color: rgb(73 49 116);
+
+}
+.y{
+  color: rgb(63, 103, 105);
+}
+.a2{
+  color: darkblue;
+}
+.zbox{
+  border-radius:40%;
+  width: 15%;
+  height: 14vh;
+  background-color: #237f9ba2;
+  position: absolute;
+  top: 15%;
+  left: 16%;
+
+}
+.abox{
+  border-radius:40%;
+  width: 15%;
+  height: 14vh;
+  background-color:rgba(31, 136, 101, 0.659) ;
+position: absolute;
+  top: -2%;
+  left: 43%;
+}
+.mbox{
+  border-radius:40%;
+  width: 15%;
+  height: 14vh;
+background-color:#054653a4 ;
+position: absolute;
+  top: 15%;
+  left: 64%;
+}
+.rbox{
+  border-radius:40%;
+  width: 15%;
+  height: 14vh;
+background-color:rgba(72, 49, 116, 0.662) ;
+position: absolute;
+  top: 60%;
+  left: 67%;
+}
+.ybox{
+  border-radius:40%;
+  width: 15%;
+  height: 14vh;
+background-color: rgba(63, 103, 105, 0.845);
+position: absolute;
+  top: 90%;
+  left: 44%;
+}
+.a2box{
+  border-radius:40%;
+  width: 15%;
+  height: 14vh;
+background-color: rgba(0, 0, 139, 0.600);
+position: absolute;
+  top: 60%;
+  left: 18%;
+}
+.why p{
+  font-size: 20px;
+  font-weight: 400;
+}
+.atmosphere{
+  position: absolute;
+  top: 170vh;
+  width: 100%;
+  height: 70vh;
+  background-image: url(../images/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvcm01MTMtZS0wMDdiLWwwdXB4aWhsLmpwZw.webp);
+  background-position: center;
+  background-size: cover;
+}
+.composition{
+  width: 30%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.323);
+}
+.composition p{
+  font-size: 20px;
+}
+.temperture{
+  position: absolute;
+  top: 0%;
+  left: 70%;
+  background-color: rgba(0, 0, 0, 0.434);
+}
+.crust{
+  position: absolute;
+  top: 240vh;
+  width: 100%;
+  height: 85vh;
+  background-image: url(../images/Enceladus-colour.jpg);
+  /* background-position: center; */
+  background-size: cover;
+}
+.struct{
+  width: 30%;
+  height: 55vh;
+  border-radius: 50%;
+  position: absolute;
+  top: 33%;
+  left: 16%;
+  background-color: #80c5c2e3;
+  /* font-weight: bold; */
+}
+.struct p{
+  font-size: 22px;
+}
+.hydro{
+  width: 35%;
+  height: 60vh;
+    left: 50%;
+    top: 28%;
+}
+.hydro p{
+  width: 95%;
+}
+.deep{
+  background-image: url(../images/pexels-blaque-x-264516-932638.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 70vh;
+  position: absolute;
+  top:325vh ;
+}
+.depth{
+  width: 40%;
+  height: 80%;
+  background-color: transparent;
+  color: #fff;
+  font-size: 20px;
+}
+.ecosystem{
+  background-image: url(../images/ocean-ecosystem-scaled.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 70vh;
+  position: absolute;
+  top:395vh ;
+}
+
+
+
+.system{
+  background-color: rgba(255, 255, 255, 0.496);
+}
+.vents{
+  background-image: url(../images/frontiers-microbiology-luca-deep-sea-hydrothermal-vent.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.over{
+  background-color: rgba(0, 0, 0, 0.415);
+  left: 9%;
+  width: 19%;
+  position: absolute;
+  top: 2%;
+}
+.over p{
+  font-size: 25px;
+  font-weight: bold;
+}
+.ceeps{
+  background-image: url(../images/Screen-Shot-2018-09-12-at-10.33.09-AM-e1539048069992.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.volcanic{
+  background-image: url(../images/Vol.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+.over1{
+  background-color: rgba(0, 0, 0, 0.415);
+  left: 38%;
+  width: 19%;
+  position: absolute;
+  top: 2%;
+}
+.over2{
+  background-color: rgba(0, 0, 0, 0.415);
+  left: 66%;
+  width: 19%;
+  position: absolute;
+  top: 2%;
+
+}
+.over1 p{
+  font-size: 25px;
+  font-weight: bold;
+}
+.over2 p{
+  font-size: 25px;
+  font-weight: bold;
+}
+.main4{
+  height: 58vh;
+}
+.image3{
+  width: 70%;
+  height: 35vh;
+}
+.image3 img{
+  width: 80%;
+}
+.comp{
+  width: 80%;
+  margin: auto;
+  top: 139vh;
+}
+.planetry{
+  width: 100%;
+  height: 80vh;
+  background-image: url(../images/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvcm01MTMtZS0wMDdiLWwwdXB4aWhsLmpwZw.webp);
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: 460vh;
+}
+.system1{
+  
+  background-color: rgba(0, 0, 0, 0.56);
+}
+.chain{
+  width: 100%;
+  height: 149vh;
+  background-image: url(../images/astronomy-background.jpg);
+  position: absolute;
+  top:70vh ;
+}
+.div2{
+  width: 27%;
+}
+.div3{
+  width: 16%;
+}
+.div4{
+  width: 17%;
+}
+.a1{
+  color:rgb(155, 53, 12) ;
+}
+.arow{
+  width: 20%;
+  height: 20vh;
+}
+.org{
+  width: 16%;
+    height: 47vh;
+  overflow: hidden;
+  position: relative;
+  
+}
+.arow1{
+  position: absolute;
+  top: 8%;
+  left: 5%;
+}
+.arow2{
+  position: absolute;
+  top: 2%;
+    left: 42%;
+    transform: rotate(45deg);
+}
+.arow3{
+  position: absolute;
+ 
+    top: 12%;
+    left: 77%;
+    transform: rotate(90deg);
+}
+.arow4{
+  position: absolute;
+  top: 58%;
+    left: 67%;
+    transform: rotate(200deg);
+}
+.arow5{
+  position: absolute;
+  top: 55%;
+    left: 11%;
+    transform: rotate(250deg);
+}
+.org1{
+  position: absolute;
+  top: 28%;
+    left: 5%;
+}
+.org2{
+  position: absolute;
+  top: 6%;
+  left: 23%;
+}
+.org3{
+  position: absolute;
+  top: 2%;
+    left: 59%;
+}
+.org4{
+  position: absolute;
+  top: 29%;
+    left: 80%;
+}
+.org5{
+  position: absolute;
+  top: 55%;
+  left: 40%;
+}
+.org6{
+  width: 100%;
+  height: 100%;
+overflow: hidden;
+position: relative;
+}
+.details{
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.652);
+  padding: 2%;
+  text-align: center;
+  transition: 1s;
+ 
+}
+.details1{
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.652);
+  padding: 2%;
+  text-align: center;
+  transition: 1s;
+}
+.org:hover .details{
+  top: 0;
+  left: 0;
+}
+.titlechain{
+  width: 15%;
+  height: 25vh;
+  border-radius: 50%;
+  position: absolute;
+  top: 31%;
+  left: 40%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+}
+.slider{
+  position: absolute;
+  top: 190vh;
+  width: 80%;
+
+}
+.item{
+  position: relative;
+  overflow: hidden;
+  
+}
+
+.item:hover .details1{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+@media (max-width:1000px) {
+  .main3 h1{
+    font-size: 40px;
+  }
+  .left{
+    left: -24%;
+  }
+  .right{
+    right: -24%;
+  }
+  .div{
+    width: 40%;
+  }
+  .center{
+    width: 70%;
+    height: 20vh;
+  }
+  .center h2{
+    font-size: 20px;
+  }
+  .center1{
+    height:40vh;
+  }
+  .center2{
+    height:55vh;
+  }
+  .center3{
+    height:70vh;
+  }
+  .center4{
+   height:90vh;
+  }
+  .center5{
+    height: 100vh;
+    width: 90%;
+  }
+  .zbox{
+    width: 25%;
+    
+    
+  }
+  .abox{
+    width: 25%;
+    
+    
+  }
+  .rbox{
+    width: 25%;
+    
+    
+  }
+  .ybox{
+    width: 25%;
+    
+    
+  }
+  .a2box{
+    width: 25%;
+    
+    
+  }
+  .zbox p{
+      font-size: 16px;
+  }
+  .abox p{
+    font-size: 16px;
+    
+    
+  }
+  .rbox p{
+    font-size: 16px;
+    
+    
+  }
+  .ybox p{
+    font-size: 16px;
+    
+    
+  }
+  .mbox{
+    width: 25%;
+  }
+  .mbox p{
+    font-size: 16px;
+  }
+  .a2box p{
+    font-size: 16px;
+    
+    
+  }
+  .composition h2{
+    font-size: 23px;
+  }
+  .composition p{
+    font-size: 16px;
+  }
+  .main1 h1{
+    font-size: 35px;
+  }
+  .main1 p{
+    font-size: 16px;
+
+  }
+  .main1{
+    height: 87vh;
+  }
+  .main2{
+    height: 155vh;
+  }
+ 
+  .cont1{
+    top: 76vh;
+  }
+  .dif{
+    width: 106%;
+    height: 33vh;
+  }
+  .over{
+    display: none;
+  }
+  .over1{
+    display: none;
+  }
+  .over2{
+    display: none;
+  }
+  .temp{
+    width: 90%;
+  }
+  .pressure{
+    height: auto;
+    top: 90vh;
+    left: 6%;
+  }
+  .comp{
+    top: 189vh;
+  }
+  .main3{
+    height: 173vh;
+  }
+  .atmosphere{
+    height: 122vh;
+  }
+  .composition{
+    width: 90%;
+    margin: auto;
+    height: auto;
+  }
+  .temperture{
+    left: 5%;
+    top: 59vh;
+  }
+  .crust{
+    height: 120vh;
+    top: 280vh;
+  }
+  .deep{
+    top: 400vh;
+  }
+  .struct{
+    width: 80%;
+    left: 17%;
+    top: 11vh;
+  }
+  .hydro{
+    width: 80%;
+    left: 17%;
+    top: 60vh;
+  }
+  .ecosystem{
+    height: 127vh;
+    
+    top: 395vh;
+  }
+  .planetry{
+    height: 117vh;
+  }
+  .chain{
+    height: 276vh;
+  }
+  .titlechain{
+    left: 25%;
+    width: 50%;
+    top: 2%;
+
+  }
+  .arow{
+    display: none;
+  }
+  .org{
+    width: 82%;
+    left: 9%;
+  }
+  .org1{
+    top: 13%;
+  }
+  .org2{
+    top: 32%;
+  }
+  .org3{
+    top: 45%;
+  }
+  .org4{
+    top: 64%;
+  }
+  .org5{
+    top: 82%;
+  }
+
+}
